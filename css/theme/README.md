@@ -1,23 +1,9 @@
-## Dependencies
+## Intro to Islandora
 
-Themes are written using Sass to keep things modular and reduce the need for repeated selectors across files. Make sure that you have the reveal.js development environment including the Grunt dependencies installed before proceding: https://github.com/hakimel/reveal.js#full-setup
+This presentation was originally developed to present to a mixed audience - some people had never done any digital collections work, while others were familiar with Islandora. I've tried to find a balance between making it simple enough for the former group without completely boring the latter.
 
-## Creating a Theme
+This presentation is licensed CC BY-SA 4.0. Feel free to reuse and remix the content as you will, but please credit me and share your work under the same, or more open, licensing terms.
 
-To create your own theme, start by duplicating any ```.scss``` file in [/css/theme/source](https://github.com/hakimel/reveal.js/blob/master/css/theme/source) and adding it to the compilation list in the [Gruntfile](https://github.com/hakimel/reveal.js/blob/master/Gruntfile.js).
+## reveal.js
 
-Each theme file does four things in the following order:
-
-1. **Include [/css/theme/template/mixins.scss](https://github.com/hakimel/reveal.js/blob/master/css/theme/template/mixins.scss)**
-Shared utility functions.
-
-2. **Include [/css/theme/template/settings.scss](https://github.com/hakimel/reveal.js/blob/master/css/theme/template/settings.scss)**
-Declares a set of custom variables that the template file (step 4) expects. Can be overridden in step 3.
-
-3. **Override**
-This is where you override the default theme. Either by specifying variables (see [settings.scss](https://github.com/hakimel/reveal.js/blob/master/css/theme/template/settings.scss) for reference) or by adding any selectors and styles you please.
-
-4. **Include [/css/theme/template/theme.scss](https://github.com/hakimel/reveal.js/blob/master/css/theme/template/theme.scss)**
-The template theme file which will generate final CSS output based on the currently defined variables.
-
-When you are done, run `grunt css-themes` to compile the Sass file to CSS and you are ready to use your new theme.
+This presentation was created in [reveal.js](http://lab.hakim.se/reveal-js/).
