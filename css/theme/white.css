@@ -50,10 +50,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 4em;
-  font-weight: normal;
-  text-transform: none;
-  font-family: "Lobster", Helvetica, sans-serif; }
+  font-size: 4em; }
 
 .reveal h2 {
   font-size: 1.6em; }
