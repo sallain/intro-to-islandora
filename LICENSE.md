@@ -1,3 +1,9 @@
+This presentation is [public domain](https://creativecommons.org/publicdomain/zero/1.0/).
+
+---
+
+###License for reveal.js
+
 Copyright (C) 2015 Hakim El Hattab, http://hakim.se
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
