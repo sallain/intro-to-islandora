@@ -8,7 +8,11 @@ This presentation synthesizes a lot of work done by members of the Islandora com
 
 ## License
 
+<<<<<<< HEAD
 This presentation is [public domain](https://creativecommons.org/publicdomain/zero/1.0/).
+=======
+This presentation is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Please feel free to reuse and remix anything that you find helpful, but give attribution and share your work under the same license (or an even more open one).
+>>>>>>> 524db959fd436af6b3c9f0b0823e3fa430f08759
 
 ## Reveal.js
 
